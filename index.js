@@ -3,7 +3,7 @@ let user = {};
 document.write("<div id=root></div>");
 function showHeader() {
   let str = `
-  <div class="row bg-primary">
+  <div class="row bg-success p-3">
           <div class="col-lg-8">
             <h1>My Bank</h1>
           </div>
@@ -14,8 +14,7 @@ function showHeader() {
               ? "<button onclick='showLogout()'>Logout</button>"
               : "<button onclick='showLogin()'>Login</button>"
           }
-            <!-- <button onclick="toggle('dark')" class="btn btn-dark">Dark</button>
-            <button onclick="toggle('light')" class="btn btn-light">Light</button> -->
+            
           </div>
         </div>
   `;
